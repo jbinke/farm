@@ -82,6 +82,9 @@ table {
 *{
     font-family: 'Habibi', sans-serif;
 }
+h1, h3, h4{
+    font-family: 'Irish Grover', sans-serif;
+}
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 
