@@ -1,7 +1,5 @@
 /* -------------------- IMPORTED FONTS -------------------------------------- */
 
-@import url(https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap);
-
 /*-------------------- CSS REST ---------------------------------------------------*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -53,6 +51,9 @@ table {
 	border-spacing: 0;
 }
 /* -------------------- ROOT VARIABLES --------------------------------------- */
+text{
+    font-family: 'Habibi';
+}
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 
