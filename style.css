@@ -79,6 +79,10 @@ table {
 	border-spacing: 0;
 }
 /* -------------------- ROOT VARIABLES --------------------------------------- */
+html{
+  box-sizing: content-box;
+}
+
 *{
     font-family: 'Habibi', sans-serif;
 }
@@ -94,6 +98,7 @@ h2{
 h3, p{
     font-size: 1.25em;
 }
+
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
