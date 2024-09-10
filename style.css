@@ -80,15 +80,23 @@ table {
 }
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 :root{
-  --green: #06a816
-  --orange: #e75d02
-  --black: #000000 
-  --white: #ffffff
+  --green: #06a816;
+  --orange: #e75d02;
+  --black: #000000 ;
+  --white: #ffffff;
  
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
 @media screen and (min-width: 800px) {
+  .column{
+    width: 100%;
+  }
   
 }
 
