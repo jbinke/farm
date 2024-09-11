@@ -94,7 +94,11 @@ table {
 header{
   font-family: "Irish Grover", 'Times New Roman', Times, serif;
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-areas: "header" "nav";
+}
+main{
+  display: grid;
+  justify-content: center;
 }
 p{
   font-family: "Habibi", 'Times New Roman', Times, serif;
@@ -112,18 +116,19 @@ h3{
 li{
   font-family: "Habibi", 'Times New Roman', Times, serif;
 }
-nav{
+nav ul{
   display: grid;
 }
 .fruits{
   display: grid;
 }
 
-@media screen and (min-width: 800px) {
-  .column{
-    width: 100%;
+@media screen and (min-width: 836px) {
+  nav ul{
+    grid-template-columns: 1fr;
+    width: 200px;
+    position: absolute;
   }
-  
 }
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
