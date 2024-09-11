@@ -94,13 +94,16 @@ table {
 header{
   font-family: "Irish Grover", 'Times New Roman', Times, serif;
   color: #ffffff;
-  font-style: italic;
   display: grid;
   background-color: #06a816;
   grid-template-rows: 2fr;
   grid-gap: 5px;
   padding: 5px;
 }
+header h2{
+  font-style: italic;
+}
+
 main{
   display: grid;
 }
@@ -119,6 +122,10 @@ h2{
 
 h3{
   font-size: 1.25em;
+}
+
+h1, h2, h3, h4{
+  font-family: "Irish Grover", 'Times New Roman', Times, serif;
 }
 
 ul{
@@ -142,7 +149,6 @@ footer{
   background-color: #06a816;
   display: grid;
 }
-
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
