@@ -93,6 +93,8 @@ table {
 }
 header{
   font-family: "Irish Grover", 'Times New Roman', Times, serif;
+  display: grid;
+  grid-template-columns: 2fr;
 }
 p{
   font-family: "Habibi", 'Times New Roman', Times, serif;
@@ -110,7 +112,12 @@ h3{
 li{
   font-family: "Habibi", 'Times New Roman', Times, serif;
 }
-
+nav{
+  display: grid;
+}
+.fruits{
+  display: grid;
+}
 
 @media screen and (min-width: 800px) {
   .column{
