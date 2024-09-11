@@ -93,42 +93,54 @@ table {
 }
 header{
   font-family: "Irish Grover", 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-style: italic;
   display: grid;
-  grid-template-areas: "header" "nav";
+  background-color: #06a816;
+  grid-template-rows: 2fr;
+  grid-gap: 5px;
+  padding: 5px;
 }
 main{
   display: grid;
-  justify-content: center;
 }
 p{
   font-family: "Habibi", 'Times New Roman', Times, serif;
   font-size: 1.25em;
 }
+
 h1{
   font-size: 2.5em;
 }
+
 h2{
   font-size: 1.75em;
 }
+
 h3{
   font-size: 1.25em;
 }
-li{
+
+ul{
   font-family: "Habibi", 'Times New Roman', Times, serif;
-}
-nav ul{
   display: grid;
 }
+
+nav{
+  display: grid;
+}
+
 .fruits{
   display: grid;
 }
 
-@media screen and (min-width: 836px) {
-  nav ul{
-    grid-template-columns: 1fr;
-    width: 200px;
-    position: absolute;
-  }
+.veg{
+  display: grid;
+}
+
+footer{
+  background-color: #06a816;
+  display: grid;
 }
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
