@@ -91,6 +91,10 @@ table {
 * {
   box-sizing: border-box;
 }
+#fruits{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+}
 
 
 @media screen and (min-width: 800px) {
