@@ -91,9 +91,24 @@ table {
 * {
   box-sizing: border-box;
 }
-#fruits{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+header{
+  font-family: "Irish Grover", 'Times New Roman', Times, serif;
+}
+p{
+  font-family: "Habibi", 'Times New Roman', Times, serif;
+  font-size: 1.25em;
+}
+h1{
+  font-size: 2.5em;
+}
+h2{
+  font-size: 1.75em;
+}
+h3{
+  font-size: 1.25em;
+}
+li{
+  font-family: "Habibi", 'Times New Roman', Times, serif;
 }
 
 
