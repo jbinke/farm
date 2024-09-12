@@ -114,14 +114,9 @@ header h1{
   background-color: #e75d02;
   border: none;
   font-family: "Habibi", 'Times New Roman', Times, serif;
-  border-radius: 4%;
   color: #ffffff;
 }
 
-main{
-  display: grid;
-  grid-template-columns: 4fr;
-}
 p{
   font-family: "Habibi", 'Times New Roman', Times, serif;
   font-size: 1.25em;
@@ -156,7 +151,13 @@ nav{
 
 .fruits{
   display:grid;
+  grid-template-columns: 4fr;
+  justify-items: center;
 
+}
+.fruits h2{
+  display: grid;
+  justify-self: left;
 }
 
 .veg{
