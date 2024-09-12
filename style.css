@@ -99,9 +99,16 @@ header{
   grid-template-rows: 2fr;
   grid-gap: 5px;
   padding: 5px;
+  justify-content: center;
 }
-header h2{
+header p{
   font-style: italic;
+  font-family: "Habibi", 'Times New Roman', Times, serif;
+}
+
+header h1{
+  display: grid;
+  justify-content: center;
 }
 
 main{
@@ -124,13 +131,8 @@ h3{
   font-size: 1.25em;
 }
 
-h1, h2, h3, h4{
+h2, h3, h4{
   font-family: "Irish Grover", 'Times New Roman', Times, serif;
-}
-
-ul{
-  font-family: "Habibi", 'Times New Roman', Times, serif;
-  display: grid;
 }
 
 nav{
