@@ -157,11 +157,11 @@ nav{
 
 .fruits{
   display: grid;
+  justify-items: center;
 }
 
-.fruits img{
-  display: grid;
-  justify-content: center;
+.fruits h2{
+  justify-items: left;
 }
 
 .veg{
