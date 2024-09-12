@@ -97,7 +97,6 @@ header{
   display: grid;
   background-color: #06a816;
   grid-template-rows: 2fr;
-  grid-gap: 5px;
   padding: 5px;
   justify-content: center;
 }
@@ -121,6 +120,7 @@ header h1{
 
 main{
   display: grid;
+  grid-template-columns: 4fr;
 }
 p{
   font-family: "Habibi", 'Times New Roman', Times, serif;
@@ -139,8 +139,12 @@ h3{
   font-size: 1.25em;
 }
 
-h2, h3, h4{
+h2, h3{
   font-family: "Irish Grover", 'Times New Roman', Times, serif;
+}
+
+h4{
+  font-family: "Habibi", 'Times New Roman', Times, serif;
 }
 
 nav{
@@ -148,7 +152,6 @@ nav{
   justify-content: center;
   text-align: center;
   flex-direction: column;
-
 }
 
 .fruits{
