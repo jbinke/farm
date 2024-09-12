@@ -111,6 +111,14 @@ header h1{
   justify-content: center;
 }
 
+.button{
+  background-color: #e75d02;
+  border: none;
+  font-family: "Habibi", 'Times New Roman', Times, serif;
+  border-radius: 4%;
+  color: #ffffff;
+}
+
 main{
   display: grid;
 }
@@ -137,10 +145,23 @@ h2, h3, h4{
 
 nav{
   display: grid;
+  grid-template-rows: 2fr;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  grid-gap: 8px;
+  overflow: hidden;
+
 }
 
 .fruits{
   display: grid;
+}
+
+.fruits img{
+  display: grid;
+  justify-content: center;
 }
 
 .veg{
