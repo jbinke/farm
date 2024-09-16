@@ -110,11 +110,16 @@ header h1{
   justify-content: center;
 }
 
-.button{
+nav{
   background-color: #e75d02;
   border: none;
   font-family: "Habibi", 'Times New Roman', Times, serif;
   color: #ffffff;
+}
+
+nav h2 {
+  visibility:hidden;
+  height:1px;
 }
 
 p{
