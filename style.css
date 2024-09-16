@@ -167,17 +167,27 @@ h4{
   padding-bottom: 8px;
 }
 
-.FFS figcaption{
+figcaption{
   display: grid;
   font-family: "Habibi", 'Times New Roman', Times, serif;
   justify-items: center;
 }
 
-
 .veg{
-  display: grid;
+  display:grid;
   grid-template-columns: 4fr;
   justify-items: center;
+
+}
+.veg h2{
+  display: grid;
+  justify-self: left;
+  padding: 12px 0px 12px 7px;
+}
+
+.veg p{
+  display: grid;
+  padding-left: 7px;
 }
 
 footer{
