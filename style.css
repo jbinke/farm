@@ -162,6 +162,8 @@ nav{
 
 .veg{
   display: grid;
+  grid-template-columns: 4fr;
+  justify-items: center;
 }
 
 footer{
