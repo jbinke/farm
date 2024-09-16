@@ -169,7 +169,7 @@ h4{
   padding-bottom: 8px;
 }
 
-figcaption{
+.FFS figcaption{
   display: grid;
   font-family: "Habibi", 'Times New Roman', Times, serif;
   justify-content: center;
@@ -182,6 +182,14 @@ figcaption{
   justify-items: center;
 
 }
+
+.VFS figcaption{
+  display: grid;
+  font-family: "Habibi", 'Times New Roman', Times, serif;
+  justify-content: center;
+  align-content: center;
+}
+
 .veg h2{
   display: grid;
   justify-self: left;
