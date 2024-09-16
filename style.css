@@ -154,6 +154,7 @@ h4{
 .fruits p{
   display: grid;
   padding-left: 7px;
+  line-height: 26px;
 }
 
 .FFS{
@@ -188,14 +189,26 @@ figcaption{
 .veg p{
   display: grid;
   padding-left: 7px;
+  line-height: 26px;
 }
 
 footer{
   background-color: #06a816;
   display: grid;
 }
+
+@media only screen and (min-width: 428px){
+
+}
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media only screen and (min-width: 834px){
 
+}
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media only screen and (min-width: 1280px){
 
+}
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+@media only screen and (min-width: 1440px){
+  
+}
