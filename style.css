@@ -156,6 +156,24 @@ h4{
   padding-left: 7px;
 }
 
+.FFS{
+  display: grid;
+  justify-items: center;
+}
+
+.FFS h3{
+  display: grid;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+
+.FFS figcaption{
+  display: grid;
+  font-family: "Habibi", 'Times New Roman', Times, serif;
+  justify-items: center;
+}
+
+
 .veg{
   display: grid;
   grid-template-columns: 4fr;
