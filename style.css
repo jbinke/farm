@@ -72,6 +72,7 @@ header{
   grid-template-rows: 2fr;
   padding: 5px;
   justify-content: center;
+  justify-items: center;
 }
 
 header p{
@@ -86,6 +87,9 @@ header h1{
 }
 
 nav{
+  display:grid;
+  text-align: center;
+  align-items: center;
   background-color: #e75d02;
   border: none;
   font-family: "Habibi", 'Times New Roman', Times, serif;
@@ -94,7 +98,16 @@ nav{
 
 nav h2 {
   visibility:hidden;
-  height:1px;
+  height: 1px;
+}
+
+nav ul{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+nav li{
+  display: grid;
 }
 
 nav #top{
@@ -125,13 +138,6 @@ h2, h3{
 
 h4{
   font-family: "Habibi", 'Times New Roman', Times, serif;
-}
-
-nav{
-  display:flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
 }
 
 .fruits{
