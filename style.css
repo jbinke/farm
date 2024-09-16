@@ -160,6 +160,7 @@ h4{
 .FFS{
   display: grid;
   justify-items: center;
+  grid-template-areas: "FFS" "apple" "orange" "peach" "strawberry" "blueberry" "raspberry" "cherry" "pear" "plum" "grape" "watermelon" "cantalope";
 }
 
 .FFS h3{
@@ -171,7 +172,8 @@ h4{
 figcaption{
   display: grid;
   font-family: "Habibi", 'Times New Roman', Times, serif;
-  justify-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .veg{
@@ -210,5 +212,5 @@ footer{
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media only screen and (min-width: 1440px){
-  
+
 }
