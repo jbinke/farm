@@ -103,7 +103,6 @@ nav h2 {
 
 nav ul{
   display: grid;
-  grid-template-columns: 1fr;
 }
 
 nav li{
