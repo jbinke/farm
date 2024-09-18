@@ -262,6 +262,7 @@ footer p{
 dl{
   display: grid;
   font-family: "Habibi", 'Times New Roman', Times, serif;
+  line-height: 1.2;
 }
 
 div{
