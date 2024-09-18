@@ -64,6 +64,12 @@ table {
   box-sizing: border-box;
 }
 
+body{
+  min-width: 428px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
 header{
   font-family: "Irish Grover", 'Times New Roman', Times, serif;
   color: #ffffff;
@@ -101,17 +107,10 @@ nav h2 {
   height: 1px;
 }
 
-nav ul{
-  display: grid;
-}
-
-nav li{
-  display: grid;
-}
-
 nav #top{
   position: sticky;
   top: 0px;
+  float: right;
 }
 
 p{
@@ -139,6 +138,12 @@ h4{
   font-family: "Habibi", 'Times New Roman', Times, serif;
 }
 
+figure{
+  position: relative;
+  display: grid;
+  text-align: center;
+}
+
 .fruits{
   display:grid;
   grid-template-columns: 4fr;
@@ -160,7 +165,7 @@ h4{
 .FFS{
   display: grid;
   justify-items: center;
-  grid-template-areas: "FFS" "apple" "orange" "peach" "strawberry" "blueberry" "raspberry" "cherry" "pear" "plum" "grape" "watermelon" "cantalope";
+  position: relative;
 }
 
 .FFS h3{
@@ -174,6 +179,14 @@ h4{
   font-family: "Habibi", 'Times New Roman', Times, serif;
   justify-content: center;
   align-content: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  z-index: 1;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, .5);
+
 }
 
 .veg{
@@ -183,11 +196,30 @@ h4{
 
 }
 
+.VFS{
+  display: grid;
+  justify-items: center;
+  position: relative;
+}
+
 .VFS figcaption{
   display: grid;
   font-family: "Habibi", 'Times New Roman', Times, serif;
   justify-content: center;
   align-content: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.VFS h3{
+  display: grid;
+  padding-top: 12px;
+  padding-bottom: 8px;
 }
 
 .veg h2{
@@ -203,22 +235,73 @@ h4{
 }
 
 footer{
+  display: grid;
+  color:#ffffff;
   background-color: #06a816;
+  justify-content: center;
+}
+
+.contact{
+  display: grid;
+  text-align: center;
+}
+
+footer h3{
+  margin: 15px;
+}
+
+footer p{
   display: grid;
 }
 
-@media only screen and (min-width: 428px){
-
+.hours{
+  display: grid;
+  text-align: center;
 }
+
+dl{
+  display: grid;
+  font-family: "Habibi", 'Times New Roman', Times, serif;
+}
+
+div{
+  display: grid;
+  text-align: center;
+  background-color: #ffffff;
+  color: #06a816;
+}
+
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media only screen and (min-width: 834px){
+  body{
+    min-width: 834px;
+    display: grid;
+  }
+  main{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media only screen and (min-width: 1280px){
-
+body{
+  min-width: 1280px;
+  display: grid;
+}
+main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media only screen and (min-width: 1440px){
-
+body{
+  min-width: 1440px;
+  display: grid;
+}
+main{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
 }
