@@ -241,7 +241,7 @@ figure{
   text-align: center;
   z-index: 1;
   color: #ffffff;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .VFS h3{
@@ -291,7 +291,11 @@ dl{
   display: grid;
   font-family: "Habibi", 'Times New Roman', Times, serif;
   line-height: 1.2;
-  grid-template-columns: 1fr 1fr;
+}
+
+dd{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 div{
