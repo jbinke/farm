@@ -129,7 +129,9 @@ nav ul li{
 }
 
 li a{
+  display: grid;
   text-decoration: none;
+  position: sticky;
 }
 
 
@@ -186,6 +188,7 @@ figure{
   display: grid;
   justify-items: center;
   position: relative;
+  grid-row-gap: 80px;
 }
 
 .FFS h3{
@@ -240,6 +243,7 @@ figure{
   display: grid;
   justify-items: center;
   position: relative;
+  grid-row-gap: 80px;
 }
 
 .VFS figcaption{
@@ -275,11 +279,15 @@ footer h3{
 
 footer p{
   display: grid;
+  height: 115px;
+  width: 210px;
+  line-height: 1.2;
 }
 
 .hours{
   display: grid;
   text-align: center;
+  grid-template-columns: 1fr;
 }
 
 dl{
