@@ -133,6 +133,8 @@ nav ul li{
 li a{
   display: grid;
   text-decoration: none;
+  color: var(--white);
+  margin-top: 8px;
 }
 
 
