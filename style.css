@@ -315,7 +315,12 @@ body{
   min-width: 1280px;
   display: grid;
 }
-main{
+.FFS{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.VFS{
   display: grid;
   grid-template-columns: auto auto auto;
 }
@@ -326,7 +331,12 @@ body{
   min-width: 1440px;
   display: grid;
 }
-main{
+.FFS{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.VFS{
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
