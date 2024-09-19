@@ -52,39 +52,13 @@ table {
 }
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 :root{
+  font-family: "Habibi", serif;
+  font-size: 1.25em;
   --green: #06a816;
   --orange: #e75d02;
   --black: #000000 ;
   --white: #ffffff;
  
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Habibi';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/habibi/v21/CSR-4zFWkuqcTTNyQxhfRuUiSOt_.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Habibi';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/habibi/v21/CSR-4zFWkuqcTTNyTRhfRuUiSA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-  font-family: 'Irish Grover';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/irishgrover/v23/buExpoi6YtLz2QW7LA4flVgv__RPSC8ocg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
@@ -135,10 +109,16 @@ nav h2 {
   height: 1px;
 }
 
-nav #top{
-  position: sticky;
-  top: 0px;
-  float: right;
+nav ul li{
+  display: grid;
+  text-align: center;
+  background-color: #e75d02;
+  border: 2px solid var(--white);
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 p{
@@ -156,6 +136,7 @@ h2{
 
 h3{
   font-size: 1.25em;
+  padding: 10px;
 }
 
 h2, h3{
@@ -174,7 +155,6 @@ figure{
 
 .fruits{
   display:grid;
-  grid-template-columns: 4fr;
   justify-items: center;
 
 }
@@ -214,6 +194,7 @@ figure{
   z-index: 1;
   color: #ffffff;
   background-color: rgba(0, 0, 0, .5);
+  padding: 18px;
 
 }
 
@@ -242,6 +223,7 @@ figure{
   z-index: 1;
   color: #ffffff;
   background-color: rgba(0, 0, 0, .5);
+  padding: 18px;
 }
 
 .VFS h3{
@@ -311,9 +293,11 @@ div{
     min-width: 834px;
     display: grid;
   }
-  main{
+  .FFS{
     display: grid;
     grid-template-columns: auto auto;
+    grid-column-gap: 120px;
+    grid-row-gap: 80px;
   }
 
 }
