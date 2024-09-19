@@ -121,6 +121,11 @@ nav ul li{
   margin-bottom: 15px;
 }
 
+nav ul li #top{
+  display: grid;
+  float: right;
+}
+
 p{
   font-family: "Habibi", 'Times New Roman', Times, serif;
   font-size: 1.25em;
